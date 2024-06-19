@@ -1,32 +1,13 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name : CarVilla  HTML Template
-* Version       : 1.0
-==================================== */
 
-/*==================================
-font-family: 'Poppins', sans-serif;
-font-family: 'Rufina', serif;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Top-area
-3.  Welcome-hero
-4.  Model-search
-5.  Service
-6.  New-cars
-7.  Featured-cars
-8.  Client-say
-9.  Brand
-10. Blog
-11. Contact
-==========================================*/
 
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
+@font-face {
+    font-family: 'FFantasy';
+    src: url('../logo/Back\ To\ The\ Fantasy.otf') format('truetype');
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -42,7 +23,7 @@ font-family: 'Rufina', serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color:#818998;
+	color: black;
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
@@ -196,7 +177,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 /*.navbar-toggle */
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
-    background-color: black;
+    background-color: #cf6b57;
     border: 1px solid #4e4ffa;
     padding: 10px;
     top: 0;
@@ -275,16 +256,19 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         5. Service 
 --------------------------------------*/
 
-.service { padding: 50px 0 87px}
+.service { padding: 50px 0 87px;
+background: #24595f;
+color: white;}
 
-.service1{padding-bottom: 900px;}
+.service1{padding-bottom: 1200px;}
 .single-service-item{
     text-align: center;
     padding:55px 30px 60px;
     border-radius: 20px;
     margin-bottom: 30px;
     width: 120%;
-    border: 1px solid #dadfe9;
+    color: white;
+    border: 1px solid white;
     -webkit-transition: .3s linear; 
     -moz-transition:.3s linear; 
     -ms-transition:.3s linear; 
@@ -294,6 +278,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .single-service-item1{
     position: absolute;
     left: 20%;
+    color: black;
     text-align: center;
     width: 200%;
     padding:55px 30px 60px;
@@ -314,6 +299,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     width: 175%;
     padding:55px 30px 60px;
     border-radius: 20px;
+    color: white;
     margin-bottom: 30px;
     border: 1px solid #dadfe9;
     -webkit-transition: .3s linear; 
@@ -331,6 +317,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     width: 200%;
     padding:55px 30px 60px;
     border-radius: 20px;
+    background-color: lightgray;
     margin-bottom: 30px;
     border: 1px solid #dadfe9;
     -webkit-transition: .3s linear; 
@@ -346,6 +333,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     padding:10px;
     border-radius: 20px;
     margin-bottom: 30px;
+    background: lightgray;
     border: 1px solid #dadfe9;
     -webkit-transition: .3s linear; 
     -moz-transition:.3s linear; 
@@ -366,7 +354,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     border-radius: 20px;
     width: 30%;
     position: absolute;
-    top: 1900px;
+    top: 2000px;
     left: 35%;
 
     border: 1px solid #dadfe9;
@@ -423,6 +411,21 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     -o-transition:.3s linear;
     transition: .3s linear;
     
+}
+
+.fin{
+    border-radius: 20px;
+    width: 30%;
+    position: absolute;
+    top: 300%;
+    left: 35%;
+    border: 1px solid #dadfe9;
+    
+    -webkit-transition: .3s linear; 
+    -moz-transition:.3s linear; 
+    -ms-transition:.3s linear; 
+    -o-transition:.3s linear;
+    transition: .3s linear;
 }
 .single-service-icon {
     display: inline-block;
